@@ -1,4 +1,5 @@
 import Component from '@ember/component';
+
 // import {RandomPicture} from 'random-picture';
 
 // async function getPicture(){
