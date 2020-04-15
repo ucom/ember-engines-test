@@ -1,31 +1,7 @@
-Random Image:
-{{this.a}}
-
-<label>
-  Start date:
-  <PikadayInput @format={{"MM/DD/YYYY"}}/>
-</label>
-
-<BasicDropdown as |dd|>
-  <dd.Trigger>Click me</dd.Trigger>
-  <dd.Content>Content of the trigger</dd.Content>
-</BasicDropdown>
-
-<BasicDropdown as |dd|>
-  <dd.Trigger>Click me!</dd.Trigger>
-  <dd.Content @overlay={{true}}> {{!-- here! --}}
-    content!
-  </dd.Content>
-</BasicDropdown>
-
 <div>
   <p>Moment: {{moment '12-25-2020' 'MM-DD-YYYY'}}</p>
 </div>
 
 <div>
-  <p>Flatpickr</p>
-{{ember-flatpickr
-locale='ru'
-onChange=null
-}}
+{{range-slider start=1}}
 </div>

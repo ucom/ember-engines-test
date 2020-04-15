@@ -1,10 +1,25 @@
-'use strict';
+"use strict";
 
-const EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const EmberApp = require("ember-cli/lib/broccoli/ember-app");
 
-module.exports = function(defaults) {
+module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
-    // Add options here
+    // babel: {
+    //   plugins: [ require.resolve('ember-auto-import/babel-plugin') ]
+    // },
+    // autoImport: {
+    //   publicAssetURL: "/assets",
+    //   alias: {
+    //     libphonenumber: "google-libphonenumber/dist/libphonenumber",
+    //   },
+    //   // avoids multiple import
+    //   exclude: ["moment"],
+    // },
+    // 'ember-cli-uglify': {
+    //   uglify: {
+    //     compress: false // added this to workaround build issue
+    //   }
+    // },
   });
 
   // Use `app.import` to add additional libraries to the generated

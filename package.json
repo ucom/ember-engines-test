@@ -20,9 +20,8 @@
   "devDependencies": {
     "@ember/optional-features": "^1.1.0",
     "@glimmer/component": "^1.0.0",
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-auto-import": "^1.5.3",
     "ember-cli": "~3.15.2",
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.13.0",
@@ -30,7 +29,6 @@
     "ember-cli-eslint": "^5.1.0",
     "ember-cli-htmlbars": "^4.2.0",
     "ember-cli-inject-live-reload": "^2.0.1",
-    "ember-cli-moment-shim": "^3.7.1",
     "ember-cli-sass": "^10.0.1",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-template-lint": "^1.0.0-beta.3",
@@ -64,7 +62,6 @@
   },
   "dependencies": {
     "ember-cli-shims": "^1.2.0",
-    "ember-engines": "^0.8.5",
-    "ember-simple-auth": "^3.0.0"
+    "ember-engines": "^0.8.5"
   }
 }
